@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .controls {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8cbd0;
+    color: rgb(1, 1, 1);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+  
